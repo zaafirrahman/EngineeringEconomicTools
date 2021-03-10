@@ -1,3 +1,10 @@
+# Run it only with Jupyter notebook or other Python IDE
+# Please only input numbers, and if it reaches thousands and above do not use dots
+# Continue to do the previous step as requested until it's finished
+# If there is a question that is not needed, please fill in the zero '0'
+# Especially for G (be it G1 or G2) if it decreases, give minus '-' in front of nominal
+# Doesn't yet support calculation within F
+
 print('-'*46)
 print('NET PRESENT VALUE CALCULATOR')
 print('-'*46)
