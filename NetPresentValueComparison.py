@@ -75,7 +75,7 @@ for g in range (0, years):
   grad += gradient_a
   year_a += year__a
 
-  print('Accumulated profit for the following year (A) = (',final_amount_a,'+((',annual_income_a,'+',grad-gradient_a,') / (', 1, '+', interest,')', year_a,'))')
+  print('Accumulated profit for the following year (A) = (',final_amount_a,'+((',annual_income_a,'+',grad-gradient_a,') / (', 1, '+', interest,')**', year_a,'))')
 
   final_amount_a = (final_amount_a + ((annual_income_a - gradient_a + grad)/(1 + interest)**year_a))
 
